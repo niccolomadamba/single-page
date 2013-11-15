@@ -1,0 +1,56 @@
+body {
+	background: #34495e;
+	color: #1abc9c;
+	
+}
+
+img  {
+	max-width: 100%;
+	
+}
+
+section {
+	padding-top: 78px;
+}
+
+.navbar {
+	border-radius: 0px;
+	width: 100%;
+	position: fixed;
+	padding-right: 150px;
+}
+
+.jumbotron {border-radius: 0 !important; padding: 0 !important;}
+
+.jumbotron-midnight {
+	background: #34495e;
+	color: #1abc9c;
+	margin: 0;
+}
+
+.showcase-item {
+	height: 300px;
+	padding: 2px;
+}
+
+.showcase-item .showcase-item-box {
+	background: #7f8c8d;
+	color: #ffffff;
+	padding: 40px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.bottom-menu  {
+	margin-top: 250px;
+}
+.text-centered { text-align: center; }
+.no-margin { margin: 0; }
+.full-width { width: 100%}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 31px;
+	}
+}
